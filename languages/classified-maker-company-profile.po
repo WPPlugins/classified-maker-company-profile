@@ -1,0 +1,382 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Classified Maker - Company Profile\n"
+"POT-Creation-Date: 2016-09-05 13:08+0600\n"
+"PO-Revision-Date: 2016-09-05 13:08+0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.9\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: includes\n"
+"X-Poedit-SearchPath-1: templates\n"
+
+#: includes/class-functions.php:35 includes/class-functions.php:36
+msgid "Company Title"
+msgstr ""
+
+#: includes/class-functions.php:37
+msgid "Write company title here"
+msgstr ""
+
+#: includes/class-functions.php:47
+msgid "Company details"
+msgstr ""
+
+#: includes/class-functions.php:48
+msgid "Write company details here"
+msgstr ""
+
+#: includes/class-functions.php:60
+msgid "Thumbnail"
+msgstr ""
+
+#: includes/class-functions.php:61
+msgid "Add some awesome images."
+msgstr ""
+
+#: includes/class-functions.php:76 includes/class-post-types.php:67
+msgid "Company Category"
+msgstr ""
+
+#: includes/class-functions.php:77
+msgid "Select company Category."
+msgstr ""
+
+#: includes/class-functions.php:91
+msgid "General"
+msgstr ""
+
+#: includes/class-functions.php:92
+msgid "Company General Information."
+msgstr ""
+
+#: includes/class-functions.php:99 includes/class-post-meta.php:40
+msgid "Company Tagline"
+msgstr ""
+
+#: includes/class-functions.php:101
+msgid "Write company tagline here."
+msgstr ""
+
+#: includes/class-functions.php:115 includes/class-post-meta.php:51
+msgid "Company Mission"
+msgstr ""
+
+#: includes/class-functions.php:117
+msgid "Write company mission here."
+msgstr ""
+
+#: includes/class-functions.php:128 includes/class-post-meta.php:60
+msgid "Country"
+msgstr ""
+
+#: includes/class-functions.php:141
+msgid "City"
+msgstr ""
+
+#: includes/class-functions.php:143
+msgid "Company city."
+msgstr ""
+
+#: includes/class-functions.php:152 includes/class-post-meta.php:76
+msgid "Headquarters Address"
+msgstr ""
+
+#: includes/class-functions.php:154
+msgid "Comany headquarters address"
+msgstr ""
+
+#: includes/class-functions.php:163 includes/class-post-meta.php:84
+msgid "Address"
+msgstr ""
+
+#: includes/class-functions.php:167
+msgid "Full Address, ex: House No: 254, Road: 5, Mirpur-12, Dhaka"
+msgstr ""
+
+#: includes/class-functions.php:175 includes/class-post-meta.php:107
+msgid "Website"
+msgstr ""
+
+#: includes/class-functions.php:179
+msgid "http://www.example.com"
+msgstr ""
+
+#: includes/class-functions.php:191
+msgid "More"
+msgstr ""
+
+#: includes/class-functions.php:192
+msgid "Company More Information."
+msgstr ""
+
+#: includes/class-functions.php:199 includes/class-post-meta.php:115
+msgid "Founded"
+msgstr ""
+
+#: includes/class-functions.php:203
+msgid "ex: 1975"
+msgstr ""
+
+#: includes/class-functions.php:211
+msgid "Revenue"
+msgstr ""
+
+#: includes/class-functions.php:214
+msgid "Revenue Yearly ($)"
+msgstr ""
+
+#: includes/class-functions.php:222
+msgid "Company Size"
+msgstr ""
+
+#: includes/class-functions.php:226
+msgid "1500 (peoples)"
+msgstr ""
+
+#: includes/class-post-meta.php:31 includes/class-post-meta.php:140
+msgid "Company Type"
+msgstr ""
+
+#: includes/class-post-meta.php:69 includes/class-post-meta.php:77
+msgid "Company City"
+msgstr ""
+
+#: includes/class-post-meta.php:85
+msgid "Full Address"
+msgstr ""
+
+#: includes/class-post-meta.php:92
+msgid "Logo"
+msgstr ""
+
+#: includes/class-post-meta.php:93
+msgid "Company Logo"
+msgstr ""
+
+#: includes/class-post-meta.php:108
+msgid "Company website"
+msgstr ""
+
+#: includes/class-post-meta.php:123
+msgid "Yearly Revenue"
+msgstr ""
+
+#: includes/class-post-meta.php:124
+msgid "Yearly Revenue ($)"
+msgstr ""
+
+#: includes/class-post-meta.php:131
+msgid "Size"
+msgstr ""
+
+#: includes/class-post-meta.php:132
+msgid "Emplyee Size"
+msgstr ""
+
+#: includes/class-post-meta.php:285
+msgid "Upload File"
+msgstr ""
+
+#: includes/class-post-meta.php:373
+msgid "company Data"
+msgstr ""
+
+#: includes/class-post-types.php:22
+msgid "Company"
+msgstr ""
+
+#: includes/class-post-types.php:23
+msgid "Companies"
+msgstr ""
+
+#: includes/class-post-types.php:32 includes/class-post-types.php:82
+#, php-format
+msgid "All %s"
+msgstr ""
+
+#: includes/class-post-types.php:33 includes/class-post-types.php:34
+#, php-format
+msgid "Add %s"
+msgstr ""
+
+#: includes/class-post-types.php:35 includes/class-post-types.php:36
+#: includes/class-post-types.php:85
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: includes/class-post-types.php:37
+#, php-format
+msgid "New %s"
+msgstr ""
+
+#: includes/class-post-types.php:38 includes/class-post-types.php:39
+#, php-format
+msgid "View %s"
+msgstr ""
+
+#: includes/class-post-types.php:40 includes/class-post-types.php:81
+#, php-format
+msgid "Search %s"
+msgstr ""
+
+#: includes/class-post-types.php:41
+#, php-format
+msgid "No %s found"
+msgstr ""
+
+#: includes/class-post-types.php:42
+#, php-format
+msgid "No %s found in trash"
+msgstr ""
+
+#: includes/class-post-types.php:43 includes/class-post-types.php:83
+#, php-format
+msgid "Parent %s"
+msgstr ""
+
+#: includes/class-post-types.php:45
+#, php-format
+msgid "This is where you can create and manage %s."
+msgstr ""
+
+#: includes/class-post-types.php:68
+msgid "Company Categories"
+msgstr ""
+
+#: includes/class-post-types.php:84
+#, php-format
+msgid "Parent %s:"
+msgstr ""
+
+#: includes/class-post-types.php:86
+#, php-format
+msgid "Update %s"
+msgstr ""
+
+#: includes/class-post-types.php:87
+#, php-format
+msgid "Add New %s"
+msgstr ""
+
+#: includes/class-post-types.php:88
+#, php-format
+msgid "New %s Name"
+msgstr ""
+
+#: includes/functions.php:61
+msgid "Please <a href=\""
+msgstr ""
+
+#: includes/functions.php:95
+msgid "Unfollow"
+msgstr ""
+
+#: includes/functions.php:98
+msgid "Follow"
+msgstr ""
+
+#: includes/functions.php:165
+msgid "You already submitted a reviews"
+msgstr ""
+
+#: includes/functions.php:174
+msgid "Review submitted."
+msgstr ""
+
+#: templates/adcount.php:36
+msgid "Total Ads Count"
+msgstr ""
+
+#: templates/company-single-meta.php:42
+msgid "Address: "
+msgstr ""
+
+#: templates/company-single-meta.php:46
+msgid "Website: "
+msgstr ""
+
+#: templates/company-single-meta.php:61
+msgid "Type: "
+msgstr ""
+
+#: templates/company-single-meta.php:66
+msgid "Founded: "
+msgstr ""
+
+#: templates/company-single-meta.php:71
+msgid "Size: "
+msgstr ""
+
+#: templates/company-single-meta.php:75
+msgid "Revenue: "
+msgstr ""
+
+#: templates/company-single-meta.php:86
+msgid "Mission: "
+msgstr ""
+
+#: templates/company-single-reviews.php:79
+msgid "Rate"
+msgstr ""
+
+#: templates/company-single-reviews.php:91
+msgid "Comments"
+msgstr ""
+
+#: templates/company-submit.php:73 templates/company-submit.php:79
+#: templates/company-submit.php:88 templates/company-submit.php:94
+msgid "missing"
+msgstr ""
+
+#: templates/company-submit.php:183
+msgid "Company Submitted successfully."
+msgstr ""
+
+#: templates/company-submit.php:184
+#, php-format
+msgid "Submission Status: %s"
+msgstr ""
+
+#: templates/company-submit.php:313
+msgid "Cancel"
+msgstr ""
+
+#: templates/company-submit.php:314
+msgid "current step:"
+msgstr ""
+
+#: templates/company-submit.php:315
+msgid "Pagination"
+msgstr ""
+
+#: templates/company-submit.php:316
+msgid "Finish"
+msgstr ""
+
+#: templates/company-submit.php:317
+msgid "Next"
+msgstr ""
+
+#: templates/company-submit.php:318
+msgid "Previous"
+msgstr ""
+
+#: templates/company-submit.php:319
+msgid "Loading ..."
+msgstr ""
+
+#: templates/company-submit.php:345
+msgid "Submit"
+msgstr ""
+
+#: templates/single-company-functions.php:63
+msgid "Related company"
+msgstr ""

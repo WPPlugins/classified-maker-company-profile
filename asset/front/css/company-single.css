@@ -1,0 +1,303 @@
+@charset "utf-8";
+/* CSS Document */
+
+.single-company{}
+
+.single-company .company-header{}
+
+.single-company .company-header .thumb {
+  margin-bottom: 20px;
+}
+
+.single-company .company-header .thumb img {
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.single-company .company-header .logo {
+  display: inline-block;
+  height: 60px;
+  margin-right: 15px;
+  overflow: hidden;
+  vertical-align: top;
+  width: 60px;
+}
+
+
+.single-company .company-header .logo img {
+  border-radius: 0;
+  box-shadow: none;
+  height: auto;
+  width: 100%;
+}
+
+.single-company .company-header .name {
+  display: inline-block;
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
+}
+
+.single-company .company-header .tagline {
+  display: block;
+  font-size: 13px;
+  font-weight: normal;
+}
+
+.single-company .company-header .local {
+  display: block;
+  font-size: 13px;
+  font-weight: normal;
+}
+
+
+.single-company .company-header .follow {
+  float: right;
+}
+
+.single-company .company-header .follow .follow-button {
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  box-shadow: 0 0 2px -1px rgb(153, 153, 153);
+  cursor: pointer;
+  display: inline-block;
+  font-size: 12px;
+  margin-bottom: 10px;
+  padding: 3px 13px;
+}
+
+.single-company .company-header .follow .follow-button:hover {
+  box-shadow: 0 0 5px -1px rgb(153, 153, 153);
+
+}
+
+
+.single-company .company-header .follow .follower-list .follower {
+  display: inline-block;
+  height: 40px;
+  margin: 0 2px;
+  overflow: hidden;
+  width: 40px;
+}
+
+.single-company .company-header .follow .follower-list .follower img {
+  height: auto;
+  width: 100%;
+}
+
+
+.single-company .company-header .follow .follower-list {
+  text-align: right;
+}
+
+.single-company .reviews {
+  margin: 15px 0;
+}
+
+.single-company .reviews .ratings {
+  background: rgba(0, 0, 0, 0) url("star-gray.png") repeat scroll 0 0;
+  cursor: pointer;
+  display: inline-block;
+  height: 18px;
+  vertical-align: top;
+  width: 96px;
+}
+
+.single-company .reviews .reviews-list {
+  margin: 20px 0;
+}
+
+.single-company .reviews .reviews-list li {
+  display: inline-block;
+  list-style: outside none none;
+  margin: 0;
+}
+
+.single-company .reviews .reviews-list li .thumb {
+  display: inline-block;
+  float: left;
+  height: 40px;
+  margin-right: 20px;
+  overflow: hidden;
+  vertical-align: top;
+  width: 40px;
+}
+
+.single-company .reviews .reviews-list li .thumb img {
+  height: auto;
+  width: 100%;
+}
+
+.single-company .reviews .reviews-list li .comment {
+  display: inline-block;
+  font-size: 13px;
+  font-style: italic;
+  text-align: left;
+  vertical-align: top;
+}
+
+.single-company .reviews .reviews-list li .rate {
+
+  font-size: 13px;
+}
+
+
+.single-company .reviews .ratings-des {
+  background: #ddd none repeat scroll 0 0;
+  display: inline-block;
+  font-size: 12px;
+  margin-left: 15px;
+  padding: 2px 10px;
+  position: relative;
+  vertical-align: top;
+}
+.single-company .reviews .ratings-des:after {
+	right: 100%;
+	top: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-color: rgba(221, 221, 221, 0);
+	border-right-color: #ddd;
+	border-width: 6px;
+	margin-top: -6px;
+}
+
+
+
+.single-company .reviews .ratings .rate {
+  background: rgba(0, 0, 0, 0) url("star.png") repeat scroll 0 0;
+  height: 18px;
+}
+
+.single-company .reviews .reviews-input {
+  background: rgba(0, 0, 0, 0.2) none repeat scroll 0 0;
+  display: none;
+  height: 100%;
+  left: 0;
+  position: fixed;
+  text-align: center;
+  top: 0;
+  width: 100%;
+  z-index: 2147483647;
+}
+
+.single-company .reviews .reviews-input .input-form {
+  background: #fff none repeat scroll 0 0;
+  margin: 100px auto 0;
+  padding: 20px;
+  position: relative;
+  text-align: left;
+  width: 500px;
+}
+
+
+.single-company .reviews .reviews-input .input-form textarea {
+  width: 80%;
+}
+
+.single-company .reviews .reviews-input .input-form .submit {
+  background: rgb(255, 73, 10) none repeat scroll 0 0;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  padding: 3px 15px;
+  margin-bottom: 15px;
+}
+
+.single-company .reviews .reviews-input .input-form .submit.loading {
+  background: rgba(255, 73, 10, 1) url("loading.gif") no-repeat scroll 6px 8px;
+  padding: 3px 15px 3px 35px;
+}
+
+
+
+.single-company .reviews .reviews-input .input-form .close {
+  background: rgb(255, 73, 10) none repeat scroll 0 0;
+  color: #fff;
+  cursor: pointer;
+  padding: 1px 8px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.single-company .reviews .reviews-input .message {
+  font-size: 12px;
+}
+
+
+
+
+.single-company .meta-info {
+  margin: 15px 0;
+}
+
+.single-company .meta-info .meta {
+  display: inline-block;
+  font-size: 12px;
+  margin: 0 25px 0 0;
+}
+
+.single-company .meta-info .meta i {
+  margin-right: 6px;
+}
+
+
+.single-company .mission {
+  background: #ddd none repeat scroll 0 0;
+  font-size: 14px;
+  font-style: italic;
+  line-height: inherit;
+  margin: 20px 0;
+  padding: 10px;
+}
+
+
+
+.single-company .company-header .description{}
+
+.single-company .company-header .ads-list-header{}
+
+
+.single-company .related-company-container {}
+
+
+.single-company .related-company-container .single-company {
+  display: inline-block;
+  font-size: 13px;
+  padding: 10px;
+  vertical-align: top;
+  width: 100px;
+}
+
+.single-company .related-company-container .single-company .thumb {
+  max-height: 100px;
+  overflow: hidden;
+  width: 100px;
+}
+
+.single-company .related-company-container .single-company img {
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.single-company .related-company-container .single-company a{
+	text-decoration:none;
+	outline:none;
+}
+
+
+
+.single-company .related-company-container .single-company .name {
+  display: block;
+  font-weight: bold;
+  padding: 5px 0;
+}
+
+
+
+

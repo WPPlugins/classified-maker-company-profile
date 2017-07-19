@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS Document */
+
+.company-submit{}
+
+.company-submit #post_title {
+  width: 90%;
+}
+
+.company-submit .steps{}
+
+.company-submit .steps ul, .company-submit .actions ul {
+  background: #f2f2f2 none repeat scroll 0 0;
+  margin: 0;
+  padding: 0;
+}
+
+.company-submit .steps ul li, .company-submit .actions ul li{
+  background: #f2f2f2 none repeat scroll 0 0;
+  border-right: 1px solid #ddd;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+.company-submit .steps ul li:last-child, .company-submit .actions ul li:nth-child(2) {
+  border: medium none;
+}
+
+.company-submit .steps-title.title {
+  display: none;
+}
+
+
+.company-submit .steps ul li.current {
+  background: #e7e6e6 none repeat scroll 0 0;
+}
+
+.company-submit .steps ul li a, .company-submit .actions ul li a {
+  display: inline-block;
+  outline: medium none;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.company-submit .steps ul li .current-info,  .company-submit .steps ul li .number{
+  display: none;
+}

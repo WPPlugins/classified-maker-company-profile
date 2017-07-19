@@ -1,0 +1,68 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.company-list .single{
+	width:300px;
+	display: inline-flex;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 5px;
+}
+
+.company-submit-form #file-upload-container #file-uploader {
+  background: rgb(53, 202, 130) none repeat scroll 0 0;
+  color: rgb(255, 255, 255);
+  display: inline-block;
+  margin: 10px 0 0;
+  padding: 3px 12px;
+  text-decoration: none;
+}
+
+.company-list{}
+.company-list .single{}
+
+.company-list .single img {
+  border-radius: 0;
+  box-shadow: none;
+  height: auto;
+  width: 50px;
+}
+
+.company-list .hotadssCompanyName a {
+	color:#20689B;
+	text-decoration:none;
+}
+.company-list .hotadssCompanyName a:hover {
+	color:#E1282A;
+}
+
+.company-list .hotadssBullet  li {
+	margin: 0 0 0 20px !important;
+}
+
+.company-list .hotadssBullet li a {
+  color: rgb(8, 117, 12);
+  font-size: 12px;
+  text-decoration: none;
+}
+.company-list .hotadssBullet  li a:hover{
+	color:#E1282A;
+}
+
+
+.company-list .paginate {
+  margin: 10px 0;
+  text-align: center;
+}
+
+.company-list .paginate .page-numbers {
+  background: rgb(84, 207, 116) none repeat scroll 0 0;
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  padding: 5px 10px;
+  text-decoration: none;
+}
+.company-list .paginate .current {
+  background: none repeat scroll 0 0 rgb(50, 176, 82);
+}

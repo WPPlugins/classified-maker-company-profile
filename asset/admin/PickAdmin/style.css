@@ -1,0 +1,45 @@
+/* PickAdmin css */
+
+
+.expandable{}
+
+
+
+.expandable .header {
+  border-bottom: 1px solid #ddd;
+  cursor: pointer;
+  padding: 10px 0;
+}
+
+
+.expandable.active .header {
+
+}
+
+.expandable .options {
+	display:none;
+
+}
+
+
+.expandable.active .options {
+	display:block;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
